@@ -17,7 +17,6 @@ public class Aplicacao {
 		//cd.setConteudo("SETUP.EXE OFFICE 365 + LICENSE KEY");
 		//cd.setCategoria(Categoria.SOFTWARE);
 		
-		
 		CDDAO cdDao = new CDDAO();
 		
 		try {
@@ -35,8 +34,6 @@ public class Aplicacao {
 		} catch (DAOException e) {
 			e.printStackTrace();
 		}
-		
-		
 		
 	}
 
